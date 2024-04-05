@@ -1,0 +1,21 @@
+footer{
+    background-image: url("img/carrosel1.webp") !important;
+	background-position-y: top;
+	color: white;
+	letter-spacing: 1px;
+	padding-top: 6px;
+	box-shadow: inset;
+}
+
+.title {
+	font-family: "Lexend", sans-serif;
+ 	 font-optical-sizing: auto;
+  	font-weight: weight;
+  	font-style: normal;
+	font-size: 150%;
+	margin-top: 1%;
+}
+
+.box{
+	display: flex;
+}
