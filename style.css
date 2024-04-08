@@ -1,10 +1,14 @@
 footer{
-    background-image: url("img/carrosel1.webp") !important;
-	background-position-y: top;
+    background-image: url("img/background.jpg") !important;
+	background-position-x: 50%;
+	background-position-y: 0%;
 	color: white;
 	letter-spacing: 1px;
-	padding-top: 6px;
-	box-shadow: inset;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
 }
 
 .title {
@@ -18,4 +22,14 @@ footer{
 
 .box{
 	display: flex;
+}
+
+.galeria{
+	display: inline-block;
+	margin-right: 0.7%;
+}
+
+.img{
+	width: 620px;
+	height: 380px;
 }
