@@ -187,9 +187,10 @@ i{
 	}
 
 	.player{
-		background-image: url("img/carta3.svg");
+		background-image: url("img/carta4.svg");
 		background-size: 260%;
 		background-position-x: 63%;
+		background-position-y: 90%;
 	}
 }
 
