@@ -4573,7 +4573,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: white;
+    color: #ffd223;
 }
 
 .navbar-nav .nav-link.active:hover{
