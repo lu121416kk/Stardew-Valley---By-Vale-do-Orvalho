@@ -172,6 +172,7 @@ i{
 	.barra{
 		height: 9px;
 		width: 40%;
+		margin-left: 5%;
 	}
 
 	progress{
