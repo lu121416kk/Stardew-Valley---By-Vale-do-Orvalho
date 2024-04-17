@@ -135,6 +135,63 @@ i{
 	margin-top: 1%;
 }
 
+/*eastereggs*/
+
+.hover-quiz:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-home:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 32%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-sobre:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position-x: 40%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-galeria:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 27%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-soundtrack:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 19%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.eastereeg1:active{
+	background-image: url("img/galinha-azul.gif");
+	background-size: 1.5%;
+	background-repeat: no-repeat;
+	background-position-x: 5%;
+	background-position-y: 100%;
+}
+
+
+
 /*Responsividade*/
 
 @media screen and (max-width: 1500px){
@@ -172,7 +229,6 @@ i{
 	.barra{
 		height: 9px;
 		width: 40%;
-		margin-left: 5%;
 	}
 
 	progress{
@@ -192,6 +248,20 @@ i{
 		background-size: 260%;
 		background-position-x: 63%;
 		background-position-y: 90%;
+		margin-bottom: 15%;
+	}
+
+	footer{
+		font-size: 90%;
+	}
+}
+
+@media screen and (min-width: 1500px){
+	.player{
+		background-image: url("img/carta2.svg");
+		background-size: 150%;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 }
 
