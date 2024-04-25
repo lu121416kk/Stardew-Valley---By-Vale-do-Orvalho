@@ -103,7 +103,7 @@ let musicas =
 ]
 
 
-let musica = document.querySelector('audio');
+let musica = document.querySelector('.som audio');
 let indexMusica = 0;
 
 let duracaoMusica = document.querySelector('.fim');
@@ -170,4 +170,20 @@ function segundosMinutos(segundo){
 
     return campoMinuto+':'+campoSegundo;
 }
+
+var x = document.getElementById("music"); 
+
+function mouseOver() { 
+    x.play(); 
+} 
+
+var y = document.getElementById("music2"); 
+
+function mouseOvery() { 
+    y.play(); 
+} 
+
+document.querySelector('.totem').addEventListener('click', ()=>{
+    document.body.classList.toggle('dark');
+})
 
