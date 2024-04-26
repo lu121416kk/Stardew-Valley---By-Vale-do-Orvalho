@@ -350,6 +350,7 @@ i{
 	.barra{
 		height: 9px;
 		width: 40%;
+		margin-left: 5%;
 	}
 
 	progress{
@@ -369,20 +370,28 @@ i{
 		background-size: 260%;
 		background-position-x: 63%;
 		background-position-y: 90%;
-		margin-bottom: 15%;
-	}
-
-	footer{
-		font-size: 90%;
 	}
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1571px) {
 	.player{
 		background-image: url("img/carta2.svg");
-		background-size: 150%;
 		background-repeat: no-repeat;
+		background-size: 150%;
 		background-position: center;
+		margin-top: 7%;
+	}
+
+	.descricao{
+		margin-left: 7%;
+	}
+
+	.barra{
+		margin-left: -10%;
+	}
+
+	.tempo{
+		margin-left: -10%;
 	}
 }
 
@@ -394,14 +403,4 @@ i{
 	.galeria{
 		margin-right: 7%;
 	}
-
-	footer{
-		margin-top: 5.4%;
-	}
-
-	.player{
-		margin-top: 3%;
-		
-	}
 }
-
