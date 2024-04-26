@@ -212,6 +212,45 @@ i{
 
 /*eastereggs*/
 
+.easteregg-vaca{
+	background-color: transparent;
+	margin-right: 60%;
+	margin-top: 4%;
+	color: transparent;
+	width: 10%;
+	height: 1%;
+}
+
+.easteregg-vaca h1{
+	margin-top: 30%;
+	margin-left: 20%;
+	width: 30%;
+}
+
+.easteregg-vaca:hover{
+	background-color: transparent;
+}
+
+.easteregg-stardrop{
+	background-color: transparent;
+	margin-right: 5%;
+	padding-left: 20%;
+	margin-top: 8%;
+	color: transparent;
+	width: 10%;
+	height: 1%;
+}
+
+.easteregg-stardrop h1{
+	margin-top: 30%;
+	margin-left: 20%;
+	width: 30%;
+}
+
+.easteregg-stardrop:hover{
+	background-color: transparent;
+}
+
 .hover-quiz:hover{
 	background-image: url("img/junimo.gif");
 	background-size: 35%;
@@ -263,6 +302,13 @@ i{
 	background-repeat: no-repeat;
 	background-position-x: 5%;
 	background-position-y: 100%;
+}
+
+
+.junimo{
+	margin-left: 1450%;
+	margin-top: 5%;
+	width: 60%;
 }
 
 
