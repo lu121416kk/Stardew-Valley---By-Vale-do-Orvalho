@@ -182,8 +182,3 @@ var y = document.getElementById("music2");
 function mouseOvery() { 
     y.play(); 
 } 
-
-document.querySelector('.totem').addEventListener('click', ()=>{
-    document.body.classList.toggle('dark');
-})
-
